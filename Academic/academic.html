@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/Kiwik.css">
+    <link rel="stylesheet" href="/Academic/academic.css">
     <title>Products - Bootstrap Website</title>
     <!-- Bootstrap CSS -->
     <link
@@ -15,7 +16,7 @@
     />
   </head>
   <body>
-    <div class="d-flex justify-content-between align-items-center flex-column">
+
       <!-- Navbar -->
       <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
         <a class="navbar-brand" href="#">Your Logo</a>
@@ -65,7 +66,30 @@
         </div>
       </nav>
       <!-- Navbar -->
-      <h1>Academic</h1>
+      <header>
+        <div class="container pt-5 mt-4   ">
+          <h1>About Academic</h1>
+          <nav>
+            <a href="#">Home</a>
+          </nav>
+        </div>
+      </header>
+    
+      <!-- Main Content -->
+      <div class="container mt-5">
+        <section id="medical">
+          <a href="#medical">Medical</a>
+          <p>Information about the medical academic program goes here.</p>
+        </section>
+        <section id="non-medical">
+          <a href="#non-medical">Non Medical</a>
+          <p>Description of the non-medical academic program.</p>
+        </section>
+        <section id="commerce">
+          <a href="#commerce">Commerce</a>
+          <p>Details about the commerce academic program.</p>
+        </section>
+      </div>
       <!--Footer -->
       <footer class="bg-dark text-white py-5">
         <div class="container">
@@ -118,7 +142,7 @@
         </div>
     </footer>
       <!--Footer -->
-    </div>
+
 
     <!-- Bootstrap JS and dependencies (jQuery and Popper.js) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

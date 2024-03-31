@@ -1,0 +1,75 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.video-background {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Viewport height */
+    overflow: hidden;
+}
+
+.video-background video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+}
+
+.video-background .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+.video-background .content h1 {
+   font-size: 80px;
+}
+.video-background .content p {
+   font-size: 34px;
+}
+
+/* Example media query for smaller devices */
+@media (max-width: 425px) {
+   .video-background .content h1 {
+       font-size: 20px;
+   }
+   .video-background .content p {
+       font-size: 14px;
+   }
+   .video-background {
+     height: 30vh;
+
+   }
+}
+
+@media (min-width: 426px) and (max-width: 768px)  {
+    .video-background .content h1 {
+        font-size: 40px;
+    }
+    .video-background .content p {
+        font-size: 24px;
+    }
+    .video-background {
+      height: 50vh;
+
+    }
+}
+@media (min-width: 769px) and (max-width: 1250px)  {
+   .video-background .content h1 {
+       font-size: 50px;
+   }
+   .video-background .content p {
+       font-size: 30px;
+   }
+   .video-background {
+     height: 70vh;
+
+   }
+}

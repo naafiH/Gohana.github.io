@@ -11,15 +11,15 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="/Home/home.css">
     <link rel="stylesheet" href="/Kiwik.css" />
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-between">
-      <div>
-        <h1>jkhasd</h1>
-      </div>
-      <div class="container d-flex flex-column align-items-end">
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light fixed-top d-flex align-items-center justify-content-between"
+    >
+      <div class="nav-cont containers d-flex flex-column align-items-start">
         <button
           class="navbar-toggler"
           type="button"
@@ -34,16 +34,16 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item dropdown">
-                <a
-                  class="nav-link"
-                  id="navbarDropdownMenuLink"
-                  role="button"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                  href="/Home/home.html"
-                  >Home</a
-                >
-              </li>
+              <a
+                class="nav-link"
+                id="navbarDropdownMenuLink"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                href="/Home/home.html"
+                >Home</a
+              >
+            </li>
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -59,141 +59,304 @@
                 class="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
-                <a class="dropdown-item" href="#"
+                <a
+                  class="dropdown-item"
+                  href="/About_us/components/Congregation_of_holy_family.html"
                   >Congregation of Holy Family</a
                 >
-                <a class="dropdown-item" href="#">Vision & Mission</a>
-                <a class="dropdown-item" href="#">Foundress</a>
-                <a class="dropdown-item" href="#">Co-Founder</a>
-                <a class="dropdown-item" href="#">Patron of School</a>
-                <a class="dropdown-item" href="#">School Motto</a>
-                <a class="dropdown-item" href="#">Principal Speaks</a>
-                <a class="dropdown-item" href="#">General Rules</a>
+                <a
+                  class="dropdown-item"
+                  href="/About_us/components/vision&mission.html"
+                  >Vision & Mission</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="/About_us/components/founders.html"
+                  >Foundress</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="/About_us/components/Co-founders.html"
+                  >Co-Founder</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="/About_us/components/parton_of_school.html"
+                  >Patron of School</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="/About_us/components/schoolmoto.html"
+                  >School Motto</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="/About_us/components/principal.html"
+                  >Principal Speaks</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="/About_us/components/general_rules.html"
+                  >General Rules</a
+                >
               </div>
             </li>
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
-                href="#"
+                href="/Campus/Campus.html"
                 id="navbarDropdown2"
                 role="button"
-                data-toggle="dropdown"
                 aria-haspopup="true"
                 aria-expanded="false"
               >
                 Campus
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
-                <a class="dropdown-item" href="#">Location</a>
-                <a class="dropdown-item" href="#">Sports & Games</a>
-                <a class="dropdown-item" href="#">Prayer Room</a>
-                <a class="dropdown-item" href="#">Activity Room</a>
+                <a class="dropdown-item" href="/Campus/components/location.html"
+                  >Location</a
+                >
+                <a class="dropdown-item" href="/Campus/components/sports.html"
+                  >Sports & Games</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="/Campus/components/prayer_room.html"
+                  >Prayer Room</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="/Campus/components/activity_room.html"
+                  >Activity Room</a
+                >
               </div>
             </li>
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
-                href="#"
+                href="/Academic/academic.html"
                 id="navbarDropdown3"
                 role="button"
-                data-toggle="dropdown"
                 aria-haspopup="true"
                 aria-expanded="false"
               >
                 Academic
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
-                <a class="dropdown-item" href="#">Medical</a>
-                <a class="dropdown-item" href="#">Non Medical</a>
-                <a class="dropdown-item" href="#">Commerce</a>
+                <a
+                  class="dropdown-item"
+                  href="/Academic/components/medical.html"
+                  >Medical</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="/Academic/components/non_medical.html"
+                  >Non Medical</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="/Academic/components/commerce.html"
+                  >Commerce</a
+                >
               </div>
             </li>
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
-                href="#"
+                href="/Fecilities/Fecilities.html"
                 id="navbarDropdown4"
                 role="button"
-                data-toggle="dropdown"
                 aria-haspopup="true"
                 aria-expanded="false"
               >
                 Facilities
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown4">
-                <a class="dropdown-item" href="#">Well Equipped Lab</a>
-                <a class="dropdown-item" href="#">Library</a>
-                <a class="dropdown-item" href="#">Transport</a>
+                <a
+                  class="dropdown-item"
+                  href="/Fecilities/components/well_eqiped_lab.html"
+                  >Well Equipped Lab</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="/Fecilities/components/library.html"
+                  >Library</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="/Fecilities/components/transport.html"
+                  >Transport</a
+                >
               </div>
             </li>
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
-                href="#"
+                href="/Mandatory_public_disclosure/mandatory_public_disclosure.html"
                 id="navbarDropdown5"
                 role="button"
-                data-toggle="dropdown"
                 aria-haspopup="true"
                 aria-expanded="false"
               >
                 Mandatory Public Disclosure
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown5">
-                <a class="dropdown-item" href="#">General Information</a>
-                <a class="dropdown-item" href="#">CBSE Data</a>
-                <a class="dropdown-item" href="#">Affiliation Letter</a>
-                <a class="dropdown-item" href="#">Trust Certificate</a>
-                <a class="dropdown-item" href="#">NOC</a>
-                <a class="dropdown-item" href="#">Recognition Certificate</a>
-                <a class="dropdown-item" href="#">Building Certificate</a>
-                <a class="dropdown-item" href="#">Fire Certificate</a>
-                <a class="dropdown-item" href="#">DEO Certificate</a>
-                <a class="dropdown-item" href="#">Water Health Certificate</a>
-                <a class="dropdown-item" href="#">Fee Structure</a>
-                <a class="dropdown-item" href="#">Academic Calendar</a>
-                <a class="dropdown-item" href="#">List of SMC</a>
-                <a class="dropdown-item" href="#">Link of PTA</a>
-                <a class="dropdown-item" href="#">Link of Three Year Result</a>
+                <a
+                  class="dropdown-item"
+                  href="/Mandatory_public_disclosure/components/General_Information.html"
+                  >General Information</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="/Mandatory_public_disclosure/components/CBSEData.html"
+                  >CBSE Data</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="/Mandatory_public_disclosure/components/Affiliation_Letter.html"
+                  >Affiliation Letter</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="/Mandatory_public_disclosure/components/Trust_Certificate.html"
+                  >Trust Certificate</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="/Mandatory_public_disclosure/components/noc.html"
+                  >NOC</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="/Mandatory_public_disclosure/components/recognition_certificate.html"
+                  >Recognition Certificate</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="/Mandatory_public_disclosure/components/building_certificate.html"
+                  >Building Certificate</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="/Mandatory_public_disclosure/components/fire_certificate.html"
+                  >Fire Certificate</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="/Mandatory_public_disclosure/components/deo_certificate.html"
+                  >DEO Certificate</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="/Mandatory_public_disclosure/components/water_health_certificate.html"
+                  >Water Health Certificate</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="/Mandatory_public_disclosure/components/free_structure.html"
+                  >Fee Structure</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="/Mandatory_public_disclosure/components/academic_calendar.html"
+                  >Academic Calendar</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="/Mandatory_public_disclosure/components/list_of_smc.html"
+                  >List of SMC</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="/Mandatory_public_disclosure/components/link_of_pta.html"
+                  >Link of PTA</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="/Mandatory_public_disclosure/components/link_of_the_year_result.html"
+                  >Link of Three Year Result</a
+                >
               </div>
             </li>
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
-                href="#"
+                href="/Student_zone/StudentZone.html"
                 id="navbarDropdown6"
                 role="button"
-                data-toggle="dropdown"
                 aria-haspopup="true"
                 aria-expanded="false"
               >
                 Student Zone
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown6">
-                <a class="dropdown-item" href="#">Holy Family Charity Fund</a>
-                <a class="dropdown-item" href="#">Counselling</a>
-                <a class="dropdown-item" href="#">Value Education</a>
-                <a class="dropdown-item" href="#">Career Guidance</a>
-                <a class="dropdown-item" href="#">School Cabinet</a>
-                <a class="dropdown-item" href="#">House System</a>
-                <a class="dropdown-item" href="#">Parent Teacher Meeting</a>
-                <a class="dropdown-item" href="#">House Visit</a>
+                <a
+                  class="dropdown-item"
+                  href="/Student_zone/components/Charity.html"
+                  >Holy Family Charity Fund</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="/Student_zone/components/counceling.html"
+                  >Counselling</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="/Student_zone/components/value_education.html"
+                  >Value Education</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="/Student_zone/components/carrier_guidence.html"
+                  >Career Guidance</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="/Student_zone/components/school_cabinate.html"
+                  >School Cabinet</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="/Student_zone/components/house_system.html"
+                  >House System</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="/Student_zone/components/parent_teacher.html"
+                  >Parent Teacher Meeting</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="/Student_zone/components/house_visit.html"
+                  >House Visit</a
+                >
               </div>
             </li>
             <!-- Add more dropdown items for other sections -->
           </ul>
         </div>
       </div>
+      <div class="d-flex align-items-start justify-content-between">
+        <h1>jkhasd</h1>
+      </div>
     </nav>
 
     <!-- Navbar -->
 
-    <!-- Main Header / Jumbotron -->
-    <div class="jumbotron" style="background-image: url(/images/img2.jpg)">
-      <div class="fdiv">
-        <h1 class="display-4">Holi Family GOHANA</h1>
-        <p class="lead">The school of GOHANA</p>
+    <!-- Main Header  -->
+    <div class="video-background">
+      <video autoplay muted loop id="bgVideo">
+          <source src="/assets/video1.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+      </video>
+      <div class="content">
+          <h1>Holy Family GOHANA</h1>
+          <p>the school of gohana and institutes</p>
       </div>
-    </div>
+  </div>
+    <!-- Main Header  -->
+
+   
 
     <!-- Featured Content -->
     <div class="container feature my-4">
@@ -214,7 +377,7 @@
     </div>
 
     <div class="container mt-5">
-      <h2>Cards with Explanation</h2>
+      <h2>LATEST NEWS</h2>
     </div>
 
     <div class="container mt-5 my-5">
@@ -223,35 +386,30 @@
           <!-- Card column -->
           <!-- Explanation column -->
           <div class="col-md-6">
-            <h2>Our Services</h2>
+            <h2>SCHOOL DETAILS</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              cursus felis a semper convallis. Vivamus vel lacus a nisi cursus
-              facilisis. In ac tristique eros, sit amet commodo sem. Nulla
-              facilisi. Curabitur accumsan, odio eget tristique lacinia, sapien
-              justo fermentum lacus, in consectetur odio odio et dolor.
+              Holy Family Convent School Gohana was established on 4th April 1999 under the aegis of Shantidhara Society of CHF Shantidhara Province New Delhi of the Congregation of the Holy Family.<br> It is a Catholic Minority institution, governed by art30 (1 ) of the Indian Constitution as elucidated by the highest court India. <br> Holy Family Convent School affiliated to C.B.S.E. New Delhi(Affiliation No.530726).
             </p>
           </div>
         </div>
       </div>
 
+      <div class="container mt-5">
+        <h1>VISION & MISSION</h1>
+      </div>
       <div class="section my-5">
         <div class="row">
           <!-- Explanation column -->
-          <div class="col-md-6">
-            <h2>Our Services</h2>
+          <div class="col-md-6 d-flex flex-column  justify-content-center">
+            <h2>VISION :-</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              cursus felis a semper convallis. Vivamus vel lacus a nisi cursus
-              facilisis. In ac tristique eros, sit amet commodo sem. Nulla
-              facilisi. Curabitur accumsan, odio eget tristique lacinia, sapien
-              justo fermentum lacus, in consectetur odio odio et dolor.
+              Create a world of enlightened & integrated citizens and mould ideal families by imparting knowledge of God and value- based quality education.
             </p>
           </div>
           <!-- Card column -->
           <div class="col-md-6">
             <div class="card">
-              <img src="images/img4.jpg"card-img-top" alt="Service Image">
+              <img src="/assets/celebration_195.jpg.crdownload"card-img-top" alt="Service Image">
               <div class="card-body">
                 <h5 class="card-title">Card Title</h5>
                 <p class="card-text">
@@ -272,7 +430,7 @@
       <div class="row">
         <div class="col-md-4">
           <div class="card">
-            <img src="./images/img3.jpg" class="card-img-top" alt="Service 1" />
+            <img src="/assets/slider_193.jpg.crdownload" class="card-img-top" alt="Service 1" />
             <div class="card-body">
               <h5 class="card-title">Service 1</h5>
               <p class="card-text">Description of Service 1.</p>
@@ -281,7 +439,7 @@
         </div>
         <div class="col-md-4">
           <div class="card">
-            <img src="./images/img3.jpg" class="card-img-top" alt="Service 2" />
+            <img src="/assets/slider_188.jpg" class="card-img-top" alt="Service 2" />
             <div class="card-body">
               <h5 class="card-title">Service 2</h5>
               <p class="card-text">Description of Service 2.</p>
@@ -290,7 +448,7 @@
         </div>
         <div class="col-md-4">
           <div class="card">
-            <img src="./images/img3.jpg" class="card-img-top" alt="Service 3" />
+            <img src="/assets/id_194.jpg" class="card-img-top" alt="Service 3" />
             <div class="card-body">
               <h5 class="card-title">Service 3</h5>
               <p class="card-text">Description of Service 3.</p>
@@ -306,7 +464,7 @@
           <!-- Card column -->
           <div class="col-md-6">
             <div class="card">
-              <img src="images/img4.jpg"card-img-top" alt="Service Image">
+              <img src="/assets/slider_184.jpg"card-img-top" alt="Service Image">
               <div class="card-body">
                 <h5 class="card-title">Card Title</h5>
                 <p class="card-text">
@@ -319,13 +477,9 @@
 
           <!-- Explanation column -->
           <div class="col-md-6">
-            <h2>Our Services</h2>
+            <h2>MISSION :-</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              cursus felis a semper convallis. Vivamus vel lacus a nisi cursus
-              facilisis. In ac tristique eros, sit amet commodo sem. Nulla
-              facilisi. Curabitur accumsan, odio eget tristique lacinia, sapien
-              justo fermentum lacus, in consectetur odio odio et dolor.
+              To Grow a culture of faith through a deep experience of the Fatherhood/motherhood of God and the brotherhood/sisterhood of humankind.
             </p>
           </div>
         </div>
@@ -335,19 +489,15 @@
         <div class="row">
           <!-- Explanation column -->
           <div class="col-md-6">
-            <h2>Our Services</h2>
+            <h2>OUR MANAGING COMMITTEE</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              cursus felis a semper convallis. Vivamus vel lacus a nisi cursus
-              facilisis. In ac tristique eros, sit amet commodo sem. Nulla
-              facilisi. Curabitur accumsan, odio eget tristique lacinia, sapien
-              justo fermentum lacus, in consectetur odio odio et dolor.
+              Our primary aim is to develop in the student qualities of integrity, honesty, trust, tolerance and compassion, to promote a spirit of enquiry
             </p>
           </div>
           <!-- Card column -->
           <div class="col-md-6">
             <div class="card">
-              <img src="images/img4.jpg"card-img-top" alt="Service Image">
+              <img src="/assets/slider_188.jpg" card-img-top" alt="Service Image">
               <div class="card-body">
                 <h5 class="card-title">Card Title</h5>
                 <p class="card-text">
@@ -379,7 +529,7 @@
           <div class="col-md-4">
             <div class="card">
               <img
-                src="./images/img3.jpg"
+                src="/assets/slider_185 (1).jpg"
                 class="card-img-top"
                 alt="Service 1"
               />
@@ -389,7 +539,7 @@
           <div class="col-md-4">
             <div class="card">
               <img
-                src="./images/img3.jpg"
+                src="/assets/slider_185 (1).jpg"
                 class="card-img-top"
                 alt="Service 2"
               />
@@ -399,7 +549,7 @@
           <div class="col-md-4">
             <div class="card">
               <img
-                src="./images/img3.jpg"
+                src="/assets/slider_185 (1).jpg"
                 class="card-img-top"
                 alt="Service 3"
               />
@@ -415,7 +565,7 @@
     <div class="container mt-5">
       <div class="card">
         <img
-          src="images//companybg.png"
+          src="/assets/id_194.jpg"
           class="card-img-top"
           alt="Card Image 1"
         />
