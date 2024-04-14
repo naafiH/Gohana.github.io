@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Results</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card-img-preview {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card-img-overlay {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .show-more {
+            cursor: pointer;
+        }
+
+        .pdf-container {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.9); /* Change background color if needed */
+            z-index: 999;
+            overflow: auto; /* Enable scrolling if PDF exceeds screen height */
+        }
+
+        .pdf-viewer {
+            width: 100%;
+            height: 100%;
+            position: relative; /* Needed for absolute positioning of button */
+        }
+
+        .back-button {
+            position: absolute;
+            top: 10px; /* Adjust top position as needed */
+            left: 50%;
+            transform: translateX(-50%);
+            width: 50px;
+            padding: 5px 0;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <!-- Card for Class 1 -->
+            <div class="col">
+                <div class="card">
+                    <img src="class1_result.jpg" class="card-img-top card-img-preview" alt="Class 1 Result">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Class 1</h5>
+                        <p class="card-text">Top Performers: John Doe, Jane Smith</p>
+                        <p class="show-more">Show More</p>
+                    </div>
+                    <div class="pdf-container" id="pdfContainer1">
+                        <!-- PDF viewer for Class 1 -->
+                        <embed src="class1_result.pdf" class="pdf-viewer" type="application/pdf">
+                        <button class="back-button">Go Back</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card for Class 2 -->
+            <div class="col">
+                <div class="card">
+                    <img src="class2_result.jpg" class="card-img-top card-img-preview" alt="Class 2 Result">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Class 2</h5>
+                        <p class="card-text">Top Performers: Emily Johnson, Mark Williams</p>
+                        <p class="show-more">Show More</p>
+                    </div>
+                    <div class="pdf-container" id="pdfContainer2">
+                        <!-- PDF viewer for Class 2 -->
+                        <embed src="/assets/muhammed Napolitani.pdf" class="pdf-viewer" type="application/pdf">
+                        <button class="back-button">Go Back</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="class3_result.jpg" class="card-img-top card-img-preview" alt="Class 2 Result">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Class 3</h5>
+                        <p class="card-text">Top Performers: Emily Johnson, Mark Williams</p>
+                        <p class="show-more">Show More</p>
+                    </div>
+                    <div class="pdf-container" id="pdfContainer2">
+                        <!-- PDF viewer for Class 2 -->
+                        <embed src="/assets/muhammed Napolitani.pdf" class="pdf-viewer" type="application/pdf">
+                        <button class="back-button">Go Back</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="class2_result.jpg" class="card-img-top card-img-preview" alt="Class 2 Result">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Class 4</h5>
+                        <p class="card-text">Top Performers: Emily Johnson, Mark Williams</p>
+                        <p class="show-more">Show More</p>
+                    </div>
+                    <div class="pdf-container" id="pdfContainer2">
+                        <!-- PDF viewer for Class 2 -->
+                        <embed src="/assets/muhammed Napolitani.pdf" class="pdf-viewer" type="application/pdf">
+                        <button class="back-button">Go Back</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="class2_result.jpg" class="card-img-top card-img-preview" alt="Class 2 Result">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Class 5</h5>
+                        <p class="card-text">Top Performers: Emily Johnson, Mark Williams</p>
+                        <p class="show-more">Show More</p>
+                    </div>
+                    <div class="pdf-container" id="pdfContainer2">
+                        <!-- PDF viewer for Class 2 -->
+                        <embed src="/assets/muhammed Napolitani.pdf" class="pdf-viewer" type="application/pdf">
+                        <button class="back-button">Go Back</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="class2_result.jpg" class="card-img-top card-img-preview" alt="Class 2 Result">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Class 6</h5>
+                        <p class="card-text">Top Performers: Emily Johnson, Mark Williams</p>
+                        <p class="show-more">Show More</p>
+                    </div>
+                    <div class="pdf-container" id="pdfContainer2">
+                        <!-- PDF viewer for Class 2 -->
+                        <embed src="/assets/muhammed Napolitani.pdf" class="pdf-viewer" type="application/pdf">
+                        <button class="back-button">Go Back</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="class2_result.jpg" class="card-img-top card-img-preview" alt="Class 2 Result">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Class 7</h5>
+                        <p class="card-text">Top Performers: Emily Johnson, Mark Williams</p>
+                        <p class="show-more">Show More</p>
+                    </div>
+                    <div class="pdf-container" id="pdfContainer2">
+                        <!-- PDF viewer for Class 2 -->
+                        <embed src="/assets/muhammed Napolitani.pdf" class="pdf-viewer" type="application/pdf">
+                        <button class="back-button">Go Back</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="class2_result.jpg" class="card-img-top card-img-preview" alt="Class 2 Result">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Class 8</h5>
+                        <p class="card-text">Top Performers: Emily Johnson, Mark Williams</p>
+                        <p class="show-more">Show More</p>
+                    </div>
+                    <div class="pdf-container" id="pdfContainer2">
+                        <!-- PDF viewer for Class 2 -->
+                        <embed src="/assets/muhammed Napolitani.pdf" class="pdf-viewer" type="application/pdf">
+                        <button class="back-button">Go Back</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="class2_result.jpg" class="card-img-top card-img-preview" alt="Class 2 Result">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Class 9</h5>
+                        <p class="card-text">Top Performers: Emily Johnson, Mark Williams</p>
+                        <p class="show-more">Show More</p>
+                    </div>
+                    <div class="pdf-container" id="pdfContainer2">
+                        <!-- PDF viewer for Class 2 -->
+                        <embed src="/assets/muhammed Napolitani.pdf" class="pdf-viewer" type="application/pdf">
+                        <button class="back-button">Go Back</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="class2_result.jpg" class="card-img-top card-img-preview" alt="Class 2 Result">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Class 10</h5>
+                        <p class="card-text">Top Performers: Emily Johnson, Mark Williams</p>
+                        <p class="show-more">Show More</p>
+                    </div>
+                    <div class="pdf-container" id="pdfContainer2">
+                        <!-- PDF viewer for Class 2 -->
+                        <embed src="/assets/muhammed Napolitani.pdf" class="pdf-viewer" type="application/pdf">
+                        <button class="back-button">Go Back</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat the above card structure for other classes -->
+            <!-- You can generate these dynamically if needed -->
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Add event listeners to all "Show More" buttons
+            var showMoreButtons = document.querySelectorAll('.show-more');
+            showMoreButtons.forEach(function(button) {
+                button.addEventListener('click', function() {
+                    // Hide all PDF containers
+                    var pdfContainers = document.querySelectorAll('.pdf-container');
+                    pdfContainers.forEach(function(container) {
+                        container.style.display = 'none';
+                    });
+
+                    // Show PDF container associated with this button
+                    var pdfContainerId = this.parentElement.nextElementSibling.id;
+                    var pdfContainer = document.getElementById(pdfContainerId);
+                    pdfContainer.style.display = 'block';
+                });
+            });
+
+            // Add event listeners to all "Go Back" buttons
+            var backButton = document.querySelectorAll('.back-button');
+            backButton.forEach(function(button) {
+                button.addEventListener('click', function() {
+                    // Hide the PDF container
+                    this.parentElement.style.display = 'none';
+                });
+            });
+        });
+    </script>
+</body>
+</html>

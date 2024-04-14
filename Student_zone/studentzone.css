@@ -1,55 +1,56 @@
 body {
-    font-family: 'Segoe UI', sans-serif;
-    background-color: #f8f9fa;
-  }
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+}
 
-  .container {
-    max-width: 800px;
-    margin: 0 auto;
-  }
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
 
-  header {
-    padding: 40px 0; /* Adjusted padding for the header */
-    background-color: #007bff;
-    color: #fff;
-    text-align: center;
-  }
+header {
+  padding: 40px 0; /* Adjusted padding for the header */
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+}
 
-  header h1 {
-    font-size: 2rem;
-    margin-top: 4rem; /* Adjusted margin for the header */
-  }
+header h1 {
+  font-size: 2rem;
+  margin-top: 4rem; /* Adjusted margin for the header */
+}
 
-  nav a {
-    color: #fff;
-    text-decoration: none;
-  }
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
 
-  nav a:hover {
-    text-decoration: underline;
-  }
+nav a:hover {
+  text-decoration: underline;
+}
 
-  section {
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
+section {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
 
-  section a {
-    font-weight: bold;
-    font-size: 1.2rem;
-    color: #343a40;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
+section a {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #343a40;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
 
-  section a:hover {
-    color: #007bff;
-  }
+section a:hover {
+  color: #007bff;
+}
 
-  section p {
-    font-size: 1rem;
-    color: #6c757d;
-  }
+section p {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
